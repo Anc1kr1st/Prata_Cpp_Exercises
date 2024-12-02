@@ -15,7 +15,7 @@ private:
     std::string job;
 public:
     enum classkind { Employee, Manager, Fink, Highfink };
-    abstr_emp() : fname("NONE"), lname("NONE"), job("NONE") {}
+    abstr_emp(); // : fname("NONE"), lname("NONE"), job("NONE") {}
     abstr_emp(const std::string& fn, const std::string& ln, const std::string& j);
     virtual void ShowAll() const;    // vsechna data labels a shows
     virtual void SetAll();        // vyzadej hodnoty od uzivatele

@@ -11,7 +11,7 @@ abstr_emp::abstr_emp() : fname(""), lname(""), job("")
 }
 
 abstr_emp::abstr_emp(const std::string& fn, const std::string& ln, const std::string& j)
-// : fname(fn), lname(ln), job(j)
+ //: fname(fn), lname(ln), job(j)
 {
 }
 
